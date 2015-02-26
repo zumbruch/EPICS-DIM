@@ -1,0 +1,2 @@
+device(ai,CONSTANT,devcaDIMInterfaceSoft,"caDIMInterface")
+device(ao,CONSTANT,devcaDIMInterfaceSoft,"caDIMInterface")

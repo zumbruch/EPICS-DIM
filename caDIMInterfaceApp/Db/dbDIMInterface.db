@@ -1,0 +1,21 @@
+record($(record), "$(user):$(pvName)")
+{
+	field(DESC, "caDIMInterface_$(record)")
+	field(DTYP, "caDIMInterface")
+	field($(INPOUT), "$(Type)$(serviceName)$(serviceFormat)$(commandName)$(commandFormat)$(dnsAddress)$(dnsPort)$(scanMode)$(scanInterval)$(serverName)$(defaultGet)$(defaultPut)$(any)")
+	field(VAL, "$(value)")
+	field(SCAN, "$(scanPeriod)")
+	field(EGU, "Counts")
+	field(HOPR, "250")
+	field(LOPR, "-100")
+	field(HIHI, "180")
+	field(HIGH, "220")
+	field(LOW, "100")
+	field(LOLO, "50")
+	field(HHSV, "MAJOR")
+	field(HSV, "MINOR")
+	field(LSV, "MINOR")
+	field(LLSV, "MAJOR")
+	field(PREC, "$(precision)")
+}
+
