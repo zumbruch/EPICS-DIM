@@ -7,4 +7,3 @@ The basic idea of this device support module for EPICS is to provide an interfac
 https://wiki.gsi.de/Epics/EpicsDimInterface
 
 
-Code to be uploaded soon ...
